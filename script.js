@@ -50,7 +50,7 @@ const imagesData = [
     location: 'Pauls Tomb'
   },
   {
-    url: 'images/IMG_9520.jpg',
+    url: 'images/IMG_9520.JPG',
     title: 'To Find Something Real',
     location: 'Vancouver, BC'
   },
