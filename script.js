@@ -54,6 +54,11 @@ const imagesData = [
     title: 'To Find Something Real',
     location: 'Vancouver, BC'
   },
+  {
+    url: './images/DSC_0361.png',
+    title: 'Into the Distance',
+    location: 'Pauls Tomb'
+  }
 ];
 
 // Shuffle function stays same
@@ -105,6 +110,8 @@ const lightboxImg = document.getElementById('lightbox-img');
 const lightboxTitle = document.getElementById('lightbox-title');
 const lightboxLocation = document.getElementById('lightbox-location');
 const lightboxClose = document.getElementById('lightbox-close');
+const lightboxLink = document.getElementById('lightbox-link');
+
 
 // Open lightbox when clicking an image
 grid.addEventListener('click', (e) => {
