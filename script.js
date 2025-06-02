@@ -87,6 +87,7 @@ shuffledImages.forEach((imgData, index) => {
   img.alt = imgData.title;
   img.setAttribute('data-title', imgData.title);
   img.setAttribute('data-location', imgData.location);
+  img.loading = 'lazy';
 
   div.appendChild(img);
   grid.appendChild(div);
