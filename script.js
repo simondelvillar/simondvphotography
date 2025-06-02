@@ -1,66 +1,66 @@
 const imagesData = [
   {
-    url: 'images/DSC_0205.png',
+    url: 'images/webp/DSC_0205.webp',
     title: 'Golden Hour',
     location: 'Kelowna, BC'
   },
   {
-    url: 'images/DSC_0206.png',
+    url: 'images/webp/DSC_0206.webp',
     title: 'Buhangin',
     location: 'Kelowna, BC'
   },
   {
-    url: 'images/DSC_0210.png',
+    url: 'images/webp/DSC_0210.webp',
     title: 'Bridge over Troubled(?) Water',
     location: 'William R. Bennett Bridge, Kelowna, BC'
   },
   {
-    url: 'images/DSC_0212.png',
+    url: 'images/webp/DSC_0212.webp',
     title: 'Paramount',
     location: 'Kelowna, BC'
   },
   {
-    url: 'images/DSC_0309.png',
+    url: 'images/webp/DSC_0309.webp',
     title: 'Let There Be Light',
     location: 'Knox Mountain overlooking Kelowna'
   },
   {
-    url: 'images/DSC_0319.png',
+    url: 'images/webp/DSC_0319.webp',
     title: 'No Stopping Now',
     location: 'Knox Mountain Apex Trail'
   },
   {
-    url: 'images/DSC_0333.png',
+    url: 'images/webp/DSC_0333.webp',
     title: 'Stone of David',
     location: 'Knox Mountain Apex Trail'
   },
   {
-    url: 'images/DSC_0339.png',
+    url: 'images/webp/DSC_0339.webp',
     title: 'Refiners Fire',
     location: 'Knox Mountain'
   },
   {
-    url: 'images/DSC_0364.png',
+    url: 'images/webp/DSC_0364.webp',
     title: 'Still Water',
     location: 'Pauls Tomb'
   },
   {
-    url: 'images/DSC_0372.png',
+    url: 'images/webp/DSC_0372.webp',
     title: 'I Can Climb Anything',
     location: 'Pauls Tomb'
   },
   {
-    url: './images/IMG_9520.JPG',
+    url: './images/webp/IMG_9520.webp',
     title: 'To Find Something Real',
     location: 'Vancouver, BC'
   },
   {
-    url: './images/DSC_0361.png',
+    url: './images/webp/DSC_0361.webp',
     title: 'Into the Distance',
     location: 'Pauls Tomb'
   },
   {
-    url: './images/DSC_0250.png',
+    url: './images/webp/DSC_0250.webp',
     title: 'Rocks',
     location: 'Myra Canyon'
   }
