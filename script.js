@@ -58,6 +58,11 @@ const imagesData = [
     url: './images/DSC_0361.png',
     title: 'Into the Distance',
     location: 'Pauls Tomb'
+  },
+  {
+    url: './images/DSC_0250.png',
+    title: 'Rocks',
+    location: 'Myra Canyon'
   }
 ];
 
