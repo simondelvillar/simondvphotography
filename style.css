@@ -27,6 +27,13 @@ h1 {
   padding-top: 0.3rem;
 }
 
+header p {
+  font-size: small;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 0.3rem;
+}
+
 .navbar {
   background-color: #111;
   border-bottom: 1px solid #222;
