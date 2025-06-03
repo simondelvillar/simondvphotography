@@ -19,38 +19,74 @@
     </div>
   </nav>
 
+   <!-- COMMISSIONS SECTION -->
+  <section id="commissions" class="commissions-section">
+    <div class="commissions-wrapper">
+      <div class="slideshow-container">
+        <img class="slide active" src="../images/webp/DSC_0361.webp" alt="Commission Sample 1">
+        <img class="slide" src="../images/webp/DSC_0333.webp" alt="Commission Sample 2">
+        <img class="slide" src="../images/webp/DSC_0185.jpg" alt="Commission Sample 3">
+        <img class="slide" src="../images/webp/DSC_0267.jpg" alt="Commission Sample 3">
+        <img class="slide" src="../images/webp/DSC_0427.jpg" alt="Commission Sample 3">
+      </div>
+      <div class="commissions-text">
+        <h3>Commissions</h3>
+        <p>
+          For project commissions, creative shoots, or freelance collaborations, feel free to reach out. I’m available for bookings and love working with both individuals and teams. Let's bring your ideas to life.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <section class="contact hidden">
-  <h2>Contact Me</h2>
-  <p>Feel free to reach out for collaborations, commissions, or just to say hello.</p>
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations, commissions, or just to say hello.</p>
 
-  <div class="contact-links">
-    <p><a href="mailto:simon.joven.delvillar@gmail.com">Email: simon.joven.delvillar@gmail.com</a></p>
-    <p><a href="https://instagram.com/simondelvillar" target="_blank">Instagram: @simondelvillar</a></p>
-  </div>
+    <div class="contact-links">
+      <p><a href="mailto:simon.joven.delvillar@gmail.com">Email: simon.joven.delvillar@gmail.com</a></p>
+      <p><a href="https://instagram.com/simondelvillar" target="_blank">Instagram: @simondelvillar</a></p>
+    </div>
 
-  <form class="contact-form" action="#" method="post">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-          observer.unobserve(entry.target);
-        }
+ 
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
+    });
+
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === index) slide.classList.add('active');
       });
-    }, { threshold: 0.1 });
+    }
 
-    document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
-  });
-</script>
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
 
+    setInterval(nextSlide, 4000); // 4 seconds per slide
+  </script>
 
 </body>
 </html>

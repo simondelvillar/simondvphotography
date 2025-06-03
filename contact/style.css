@@ -150,6 +150,50 @@ body {
   color: #000;
 }
 
+/* Commissions Section */
+.commissions-section {
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 2rem 1rem;
+  animation: fadeIn 0.8s ease forwards;
+  opacity: 0;
+}
+
+.commissions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.commissions-img {
+  flex: 1 1 50%;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.commissions-text {
+  flex: 1 1 40%;
+  color: #ccc;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.commissions-text h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.commissions-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 /* Fade-in animation */
 @keyframes fadeIn {
   to {
@@ -157,14 +201,45 @@ body {
   }
 }
 
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  .contact h2 {
-    font-size: 1.8rem;
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .commissions-wrapper {
+    flex-direction: column;
   }
 
-  .contact-form input,
-  .contact-form textarea {
-    font-size: 0.95rem;
+  .commissions-text {
+    padding: 1.5rem;
   }
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #000;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.slide.active {
+  display: block;
 }
