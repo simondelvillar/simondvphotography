@@ -63,6 +63,21 @@ const imagesData = [
     url: './images/webp/DSC_0250.webp',
     title: 'Rocks',
     location: 'Myra Canyon'
+  },
+  {
+    url: './images/webp/DSC_0185.jpg',
+    title: 'Locked In',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0267.jpg',
+    title: 'Touche',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0294.jpg',
+    title: 'Coach Luis',
+    location: 'Okanagan Freestyle Fencing'
   }
 ];
 
