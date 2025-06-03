@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #111;
   color: #fff;
@@ -20,47 +24,88 @@ h1 {
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 2px;
+  padding-top: 0.3rem;
+}
+
+.navbar {
+  background-color: #111;
+  border-bottom: 1px solid #222;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width:  1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 300;
+  transition: color 0.3 ease;
+}
+
+.nav-links li a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
 }
 
 .about {
-  max-width: 1500px;
-  margin: 0 auto 3rem auto;
-  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto 0.3rem auto;
+  padding: 6rem 1rem;
 }
 
 .about-container {
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  align-items: flex-start;
+  gap: 3rem;
   flex-wrap: wrap;
   justify-content: center;
   text-align: left;
 }
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
 }
 
 .about-text {
-  max-width: 500px;
+  max-width: 700px;
   color: #ccc;
 }
 
 .about-text h2 {
-  font-size: 2rem;
+  font-size: 2.6rem;
   margin-bottom: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
   letter-spacing: 1px;
 }
 
 .about-text p {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.8;
   font-weight: 300;
 }
 
@@ -98,56 +143,6 @@ h1 {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.contact {
-  max-width: 700px;
-  margin: 4rem auto 2rem auto;
-  text-align: center;
-  padding: 0 1rem;
-  color: #ccc;
-}
-
-.contact h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  font-weight: 400;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.contact p {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
-.contact .email {
-  display: inline-block;
-  font-size: 1rem;
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #555;
-  transition: color 0.3s ease, border-color 0.3s ease;
-}
-
-.contact .email:hover {
-  color: #aaa;
-  border-color: #aaa;
-}
-
-.contact .instagram {
-    display: inline-block;
-    font-size: 1rem;
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 1px solid #555;
-    transition: color 0.3s ease, border-color 0.3s ease;
-}
-
-.contact .instagram:hover {
-  color: #aaa;
-  border-color: #aaa;
 }
 
 /* Lightbox overlay */
