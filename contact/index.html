@@ -47,10 +47,12 @@
       <p><a href="https://instagram.com/simondelvillar" target="_blank">Instagram: @simondelvillar</a></p>
     </div>
 
-    <form class="contact-form" action="#" method="post">
+    <form class="contact-form" action="https://formspree.io/f/xrbkezza" method="post">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <input type="hidden" name="_redirect" value="contact/thank_you/index.html">
       <button type="submit">Send Message</button>
     </form>
   </section>
