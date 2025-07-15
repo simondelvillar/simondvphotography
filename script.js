@@ -78,6 +78,101 @@ const imagesData = [
     url: './images/webp/DSC_0294.jpg',
     title: 'Coach Luis',
     location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0872.webp',
+    title: 'Cougar',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_0895.webp',
+    title: 'Subaru',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_0898.webp',
+    title: 'Camaro',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_0900.webp',
+    title: 'Datsun',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_0921.webp',
+    title: 'Brougham Cadillac',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_0933.webp',
+    title: 'Fiat',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_0935.webp',
+    title: 'France Escrime',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0954.webp',
+    title: 'Eric Boisse',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0956.webp',
+    title: 'Fleche',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0958.webp',
+    title: 'Lucas Pang',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0973.webp',
+    title: 'Anthony Costantini',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_0988.webp',
+    title: 'Coach Eric and Anthony',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_1013.webp',
+    title: 'Coach Eric Lesson',
+    location: 'Okanagan Freestyle Fencing'
+  },
+  {
+    url: './images/webp/DSC_1034.webp',
+    title: 'Golden Car',
+    location: 'Kelowna, BC'
+  },
+  {
+    url: './images/webp/DSC_1035.webp',
+    title: 'Horizon Konbini',
+    location: 'Kelowna, BC'
+  },
+  {
+    url: './images/webp/DSC_1036.webp',
+    title: 'Cool Cars',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_1039.webp',
+    title: 'Nissan GT-R',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_1045.webp',
+    title: 'Nissan GT-R',
+    location: 'Automobiles and Caffeine'
+  },
+  {
+    url: './images/webp/DSC_1054.webp',
+    title: 'Ilford Car',
+    location: 'Kelowna, BC'
   }
 ];
 
